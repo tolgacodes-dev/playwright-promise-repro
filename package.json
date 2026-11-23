@@ -1,0 +1,10 @@
+{
+  "name": "playwright-promise-repro",
+  "private": true,
+  "scripts": {
+    "test": "playwright test --workers=1 --reporter=list"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.1"
+  }
+}
